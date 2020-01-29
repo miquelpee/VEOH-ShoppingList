@@ -1,0 +1,28 @@
+{
+  "name": "veoh-shoppinglist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node shoppinglist-mpi.js",
+    "start-dev": "nodemon shoppinglist-mpi.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miquelpee/VEOH-ShoppingList.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miquelpee/VEOH-ShoppingList/issues"
+  },
+  "homepage": "https://github.com/miquelpee/VEOH-ShoppingList#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.8.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
